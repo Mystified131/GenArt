@@ -19,19 +19,21 @@ wn = turtle.Screen()
 
 collst = ["black", "white", "blue", "red", "yellow", "pink", "brown", "silver", "gray", "purple", "gold", "green", "light blue", "light yellow", "light pink", "tan", "light gray", "lavender", "light green"]
 
+bcollst = ["light blue", "light yellow", "light pink", "tan", "light gray", "lavender", "light green"]
+
 tommy = turtle.Turtle()
 tommy.shape("circle")
 tommy.speed(1000)
 
-bkgr = random_number(len(collst))
+bkgr = random_number(len(bcollst))
 
-back = collst[bkgr]
+back = bcollst[bkgr]
 
 turtle.bgcolor(back)
 
-collst.remove(collst[bkgr])
+collst.remove(bcollst[bkgr])
 
-shnum = random_number2(10, 30)
+shnum = random_number2(15, 30)
 
 for ctr in range(shnum):
 
@@ -45,7 +47,7 @@ for ctr in range(shnum):
 
     yco = random_number2(-200, 200)
 
-    csiz = random_number2(10, 100)
+    csiz = random_number2(10, 200)
 
     tommy.penup()
 
