@@ -22,7 +22,7 @@ collst = ["black", "white", "blue", "red", "yellow", "pink", "brown", "silver", 
 bcollst = ["light blue", "light yellow", "light pink", "tan", "light gray", "lavender", "light green"]
 
 tommy = turtle.Turtle()
-tommy.shape("classic")
+tommy.shape("circle")
 tommy.speed(1000)
 
 bkgr = random_number(len(bcollst))
