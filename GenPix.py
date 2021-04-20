@@ -61,6 +61,6 @@ for ctr in range(shnum):
 
 tommy.penup()
 
-tommy.goto(300,300)
+tommy.goto(400,400)
 
 turtle.exitonclick()
