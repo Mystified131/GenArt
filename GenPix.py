@@ -22,7 +22,7 @@ collst = ["black", "white", "blue", "red", "yellow", "pink", "brown", "silver", 
 bcollst = ["light blue", "light yellow", "light pink", "tan", "light gray", "lavender", "light green"]
 
 tommy = turtle.Turtle()
-tommy.shape("circle")
+tommy.shape("classic")
 tommy.speed(1000)
 
 bkgr = random_number(len(bcollst))
@@ -53,12 +53,14 @@ for ctr in range(shnum):
 
     tommy.dot()
 
-    tommy.penup()
-
 #ts = turtle.getscreen()
 
 #filnm = "Turtle_" + tim + ".eps"
 
 #ts.getcanvas().postscript(file=filnm)
+
+tommy.penup()
+
+tommy.goto(300,300)
 
 turtle.exitonclick()
