@@ -34,6 +34,8 @@ back = bcollst[bkgr]
 
 turtle.bgcolor(back)
 
+#turtle.bgcolor("white")
+
 #collst.remove(bcollst[bkgr])
 
 shnum = random_number2(200, 325)
