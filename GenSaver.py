@@ -30,6 +30,8 @@ tommy.speed(1000)
 
 for reps in range(10000):
 
+    turtle.clearscreen()
+
     bkgr = random_number(len(bcollst))
 
     back = bcollst[bkgr]
@@ -54,7 +56,7 @@ for reps in range(10000):
 
         stx = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
 
-        xco = random_number2(-400, 280)
+        xco = random_number2(-600, 300)
 
         yco = random_number2(-300, 300)
 
