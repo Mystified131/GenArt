@@ -95,7 +95,7 @@ for ctr in range(shnum):
 
     #stx = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
 
-    xco = random_number2(-320, 280)
+    xco = random_number2(-340, 240)
 
     yco = random_number2(-300, 300)
 
