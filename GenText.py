@@ -77,7 +77,7 @@ turtle.bgcolor(back)
 
 #collst.remove(bcollst[bkgr])
 
-shnum = random_number2(80, 115)
+shnum = random_number2(90, 115)
 
 for ctr in range(shnum):
 
