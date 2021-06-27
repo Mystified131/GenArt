@@ -2,6 +2,7 @@ import turtle
 import datetime
 import random
 import string
+from unidecode import unidecode
 from RandFunct import random_number
 from RandFunct2 import random_number2
 import os
@@ -47,6 +48,8 @@ for elem in fillst:
                 elem = elem.strip('!')
                 elem = elem.strip('?')
                 elem = elem.lower()
+                elem = unidecode(elem)
+  
                 totlst.append(elem)
         plist = infile.readline()
 
