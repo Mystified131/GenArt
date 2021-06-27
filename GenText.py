@@ -58,7 +58,9 @@ wn = turtle.Screen()
 
 collst = ["black", "silver"]
 
-bcollst = ["light blue", "tan", "white"]
+#bcollst = ["light blue", "tan", "white"]
+
+bcollst = ["white", "white", "white"]
 
 stllst = ["normal", "bold", "italic", "underline"]
 
