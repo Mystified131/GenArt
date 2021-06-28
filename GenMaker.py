@@ -87,7 +87,7 @@ for reps in range(10000):
 
     ts = turtle.getscreen()
 
-    filnm = "//renders//Turtle_GenMaker_" + tim + ".eps"
+    filnm = "Turtle_GenMaker_" + tim + ".eps"
 
     ts.getcanvas().postscript(file=filnm)
 
