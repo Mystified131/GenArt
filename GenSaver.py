@@ -19,6 +19,16 @@ tim = ("".join(list))
 
 wn = turtle.Screen()
 
+wn.setup(width = 1.0, height = 1.0)
+
+#These next three lines will create a fullscreen effect but will also not allow an esc exit
+
+#canvas = wn.getcanvas()
+
+#root = canvas.winfo_toplevel()
+
+#root.overrideredirect(1)
+
 collst = ["black", "silver"]
 
 bcollst = ["light blue", "tan", "white"]
@@ -56,7 +66,7 @@ for reps in range(10000):
 
         stx = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
 
-        xco = random_number2(-600, 300)
+        xco = random_number2(-600, 275)
 
         yco = random_number2(-300, 300)
 
