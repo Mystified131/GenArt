@@ -37,10 +37,14 @@ for elem in fillst:
                 elem = elem.strip('!')
                 elem = elem.strip('?')
                 elem = elem.lower()
-                elem = unidecode(elem)
+                #elem = unidecode(elem)
   
                 totlst.append(elem)
-        plist = infile.readline()
+        
+        try:
+            plist = unidecode(infile.readline())
+
+        except: print("Text error-- passing over line.")
 
     infile.close()
 
@@ -62,7 +66,9 @@ collst = ["black", "silver"]
 
 #bcollst = ["light blue", "tan", "white"]
 
-bcollst = ["white", "white", "white"]
+#bcollst = ["white", "white", "white"]
+
+bcollst = ["pink", "pink", "pink"]
 
 stllst = ["normal", "bold", "italic", "underline"]
 
@@ -84,7 +90,9 @@ for reps in range(10000):
 
     #collst.remove(bcollst[bkgr])
 
-    shnum = random_number2(90, 115)
+    #shnum = random_number2(90, 115)
+
+    shnum = random_number2(350, 500)
 
     for ctr in range(shnum):
 
