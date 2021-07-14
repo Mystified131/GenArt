@@ -40,7 +40,12 @@ for elem in fillst:
                 elem = unidecode(elem)
   
                 totlst.append(elem)
-        plist = infile.readline()
+
+        try:
+            plist = unidecode(infile.readline())
+
+        except: print("Text error-- passing over line.")
+      
 
     infile.close()
 
